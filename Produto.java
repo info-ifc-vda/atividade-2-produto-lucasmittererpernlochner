@@ -27,8 +27,9 @@ public class Produto {
     public void alterarQuantidade(int quantidade) {
         this.quantidadeEmEstoque += quantidade;
         if (this.quantidadeEmEstoque < 0) {
-            System.out.println("Nao é possivel ter quantidade negativa em estoque.");
+            System.out.println("Nao e possivel ter quantidade negativa em estoque.");
             this.quantidadeEmEstoque = 0;
         }
     }
+
 }
